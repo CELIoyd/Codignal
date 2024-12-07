@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> JavaScript String Methods</h2>
+    <p>basic Methods</p>
+    <script>
+        var str="Lloyd";
+        document.write("To upper case " + str.toUpperCase());
+        document.write("<br>");
+        document.write("To lower case " + str.toLowerCase());
+        document.write("<br>");
+        document.write("Starts with i " + str.startsWith('i'));
+        document.write("<br>");
+        document.write("Starts with A " + str.startsWith('A'));
+        document.write("<br>");
+        document.write(Math.random());
+        document.write("<br>");
+        document.write(Math.floor(9.9));
+        document.write("<br>")
+
+
+        //Test methods
+        var str1 = "Subscribe to my channel";
+        var patt = new RegExp("yes");
+        var res = patt.test(str1);
+        document.write(res)
+        document.write("<br>")
+
+        //loops
+        var usernames = ["CELloyd45621", "CELloyd456", "Warlock56871", "CELI1237", "Undemental_08"];
+        //idk what he wrote
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        var day;
+        switch(new Date().getDay()) {
+            case 0:
+                day = "Sunday";
+                break;
+            case 1:
+                day = "Monday";
+                break;
+            case 2:
+                day = "Tuesday";
+                break; 
+            case 3:
+                day = "Wednesday";
+                break;
+            case 4:
+                day = "Thursday";
+                break;
+            case 5:
+                day = "Friday";
+                break;
+            case 6:
+                day = "Saturday";
+                break;   
+        }
+        document.write("Today is " + day) 
+
+
+
+    </script>
+</body>
+</html>
